@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+### UI
+
+El sistema ahora incluye un selector de tema claro u oscuro y estilos responsivos.

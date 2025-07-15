@@ -1,0 +1,20 @@
+:root {
+  --background-color: #ffffff;
+  --foreground-color: #212529;
+  --navbar-bg: #f8f9fa;
+}
+
+[data-theme="dark"] {
+  --background-color: #212529;
+  --foreground-color: #f8f9fa;
+  --navbar-bg: #343a40;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--foreground-color);
+}
+
+.navbar {
+  background-color: var(--navbar-bg);
+}
