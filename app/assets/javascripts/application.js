@@ -49,6 +49,7 @@
 
 //= require datatables/dataTables.bootstrap4
 //= require datatables/extensions/Buttons/buttons.bootstrap4
+//= require theme
 //= require_tree .
 
 

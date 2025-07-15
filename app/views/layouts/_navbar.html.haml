@@ -32,3 +32,7 @@
         %li.nav-item.dropdown
           = link_to edit_user_registration_path, id: 'MiCuenta', class: 'menu-item profile-dropdown-link' do
             = image_tag current_user.avatar, class: 'rounded-circle user-avatar mx-2'
+        %li.nav-item.mx-2
+          .custom-control.custom-switch.mt-2
+            %input#theme-toggle.custom-control-input{type: 'checkbox'}
+            %label.custom-control-label{for: 'theme-toggle'} Modo oscuro

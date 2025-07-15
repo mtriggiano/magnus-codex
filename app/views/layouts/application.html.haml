@@ -2,7 +2,7 @@
     = yield
 - else
     !!!
-    %html
+    %html{data: { theme: 'light' }}
     %head
         %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
         %meta{name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1'}
@@ -20,7 +20,7 @@
         %script{src: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyD_7NWrayLw3qGggJrELOGWHIpUvN47uVs'}
         %link{href: 'https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css', rel: 'stylesheet'}
 
-    %body.bg-light.disable-scrollbars
+    %body.disable-scrollbars
         = render '/layouts/navbar' if user_signed_in?
         = render '/layouts/vertical_nav'
         = flash_helper
